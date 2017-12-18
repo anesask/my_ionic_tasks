@@ -3,5 +3,5 @@ export interface Task{
     name: string;
     description: string;
     date: Date;
-    time: Time;
+    time: number;
 }

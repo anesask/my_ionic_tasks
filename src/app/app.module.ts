@@ -14,6 +14,7 @@ import { AngularFireDatabaseModule } from 'angularfire2/database';
 import { TaskListService } from '../services/task-list.service';
 import { MessageService } from '../services/messages.service';
 
+
 @NgModule({
   declarations: [
     MyApp
@@ -33,7 +34,7 @@ import { MessageService } from '../services/messages.service';
     SplashScreen,
     {provide: ErrorHandler, useClass: IonicErrorHandler},
     TaskListService,
-    MessageService
+    MessageService,
   ]
 })
 export class AppModule {}
