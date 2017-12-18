@@ -1,6 +1,5 @@
 # My Tasks - CRUD application with Ionic 3 and Firebase
-
-My Tasks 
+<b>My Tasks</b> 
 <br>
 #Create, Retrieve, Update and Delete 
 <br>
