@@ -1,0 +1,28 @@
+<ion-header>
+
+  <ion-navbar>
+    <ion-title>Add Task</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+<ion-content padding>
+  <ion-item>
+    <ion-label stacked>Name</ion-label>
+    <ion-input [(ngModel)]="task.name" type="text" placeholder="Enter task name..."></ion-input>
+  </ion-item>
+  <ion-item>
+      <ion-label stacked>Description</ion-label>
+      <ion-input [(ngModel)]="task.description" type="text" placeholder="Tell me about your task..."></ion-input>
+  </ion-item>
+  <ion-item>
+      <ion-label floating>Date</ion-label>
+      <ion-datetime displayFormat="DD/MM/YYYY" min="2017" max="2020-10-31" [(ngModel)]="task.date"></ion-datetime>
+  </ion-item>
+  <ion-item>
+      <ion-label floating>Time</ion-label>
+      <ion-datetime displayFormat="HH:mm" [(ngModel)]="task.time"></ion-datetime>
+  </ion-item>
+
+  <button ion-button block (click)="addTask(task)">Add Task</button>
+</ion-content>
