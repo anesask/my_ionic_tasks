@@ -1,8 +1,11 @@
 # My Tasks - CRUD application with Ionic 3 and Firebase
 
 My Tasks 
-#Create, Retrieve, Update and Delete – 
+<br>
+#Create, Retrieve, Update and Delete 
+<br>
 #Task Manager Application based on Ionic3 Framework with Cloud Firestore
+<br>
 #Realtime Database
 
 <p align="center">
